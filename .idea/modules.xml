@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/airpollution-analysis.iml" filepath="$PROJECT_DIR$/.idea/modules/airpollution-analysis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/airpollution-analysis_main.iml" filepath="$PROJECT_DIR$/.idea/modules/airpollution-analysis_main.iml" group="airpollution-analysis" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/airpollution-analysis_test.iml" filepath="$PROJECT_DIR$/.idea/modules/airpollution-analysis_test.iml" group="airpollution-analysis" />
+    </modules>
+  </component>
+</project>
