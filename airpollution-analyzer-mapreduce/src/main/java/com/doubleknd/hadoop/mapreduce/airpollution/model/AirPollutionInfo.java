@@ -1,4 +1,4 @@
-package com.doubleknd.hadoop.airpollution.model;
+package com.doubleknd.hadoop.mapreduce.airpollution.model;
 
 import lombok.Data;
 

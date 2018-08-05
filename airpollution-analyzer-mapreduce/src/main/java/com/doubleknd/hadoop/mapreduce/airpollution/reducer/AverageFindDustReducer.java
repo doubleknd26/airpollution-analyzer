@@ -1,4 +1,4 @@
-package com.doubleknd.hadoop.airpollution.reducer;
+package com.doubleknd.hadoop.mapreduce.airpollution.reducer;
 
 import org.apache.hadoop.io.DoubleWritable;
 import org.apache.hadoop.io.Text;

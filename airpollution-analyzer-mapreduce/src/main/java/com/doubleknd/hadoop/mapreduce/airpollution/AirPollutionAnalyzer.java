@@ -1,7 +1,7 @@
-package com.doubleknd.hadoop.airpollution;
+package com.doubleknd.hadoop.mapreduce.airpollution;
 
-import com.doubleknd.hadoop.airpollution.mapper.AverageFineDustMapper;
-import com.doubleknd.hadoop.airpollution.reducer.AverageFindDustReducer;
+import com.doubleknd.hadoop.mapreduce.airpollution.mapper.AverageFineDustMapper;
+import com.doubleknd.hadoop.mapreduce.airpollution.reducer.AverageFindDustReducer;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.conf.Configured;
 import org.apache.hadoop.fs.Path;

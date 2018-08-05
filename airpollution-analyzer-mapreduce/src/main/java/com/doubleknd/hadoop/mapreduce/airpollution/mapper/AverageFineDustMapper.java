@@ -1,4 +1,4 @@
-package com.doubleknd.hadoop.airpollution.mapper;
+package com.doubleknd.hadoop.mapreduce.airpollution.mapper;
 
 import com.doubleknd.hadoop.airpollution.common.Counters;
 import com.doubleknd.hadoop.airpollution.model.AirPollutionInfo;
