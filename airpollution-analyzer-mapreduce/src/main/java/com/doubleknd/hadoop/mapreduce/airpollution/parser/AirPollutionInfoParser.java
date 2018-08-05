@@ -1,6 +1,6 @@
 package com.doubleknd.hadoop.mapreduce.airpollution.parser;
 
-import com.doubleknd.hadoop.airpollution.model.AirPollutionInfo;
+import com.doubleknd.hadoop.mapreduce.airpollution.model.AirPollutionInfo;
 import org.apache.commons.lang.StringUtils;
 import org.apache.hadoop.io.Text;
 

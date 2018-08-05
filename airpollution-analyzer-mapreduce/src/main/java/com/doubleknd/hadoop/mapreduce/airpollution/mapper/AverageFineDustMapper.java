@@ -1,8 +1,8 @@
 package com.doubleknd.hadoop.mapreduce.airpollution.mapper;
 
-import com.doubleknd.hadoop.airpollution.common.Counters;
-import com.doubleknd.hadoop.airpollution.model.AirPollutionInfo;
-import com.doubleknd.hadoop.airpollution.parser.AirPollutionInfoParser;
+import com.doubleknd.hadoop.mapreduce.airpollution.common.Counters;
+import com.doubleknd.hadoop.mapreduce.airpollution.model.AirPollutionInfo;
+import com.doubleknd.hadoop.mapreduce.airpollution.parser.AirPollutionInfoParser;
 import org.apache.hadoop.io.DoubleWritable;
 import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
