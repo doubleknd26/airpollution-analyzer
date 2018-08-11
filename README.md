@@ -3,11 +3,11 @@ This is my first hadoop mapreduce program to analyze air pollution of Seoul, Sou
 There is two modules in this project. First, *airpollution-analyzer-mapreduce* is a module to run hadoop mapreduce. 
 The other one is a *airpollution-analyzer-service* and it is a module to see mapreduce result using http.
 
-#### Getting started with airpollution-analyzer-mapreduce
+### Getting started with airpollution-analyzer-mapreduce
 
 Step1) Install hadoop.  
 1. Install [brew](https://brew.sh).
-2. Enter this command line 'brew install hadoop'. Then you can see it.  ![brew install hadoop](images/hadoop_install.png)
+2. Enter this command line 'brew install hadoop'. Then you can see it.  ![brew install hadoop](images/hadoop_install.png){ width=50% }
 3. After installation, you can see hadoop directory in /usr/local/Cellar/hadoop/3.1.0
 4. To access hadoop bin in everywhere, setup HADOOP_HOME in ~/.bash_profile  ![bash_profile](images/bash_profile.png)
 5. Go to $HADOOP_HOME/etc/hadoop/hadoop-env.sh and add only JAVA_HOME absolute path like this. ![hadoop-env](images/hadoop-env.png)
@@ -41,3 +41,7 @@ Step1) Install hadoop.
         </property>
       </configuration>
       ```
+8. Go to $HADOOP_HOME and run ./bin/hdfs namenode -format.
+9. Go to $HADOOP_HOME and run ./sbin/start-dfs.sh. ![start-dfs](images/start-dfs.png)
+10. Then, you can browse the web interface for the NameNode http://localhost:50070/. ![namenode_web](images/namenode_web.png)
+
