@@ -5,9 +5,9 @@ The other one is a *airpollution-analyzer-service* and it is a module to see map
 
 ### Getting started with airpollution-analyzer-mapreduce
 
-Step1) Install hadoop.  
+**Step1) Install hadoop.**  
 1. Install [brew](https://brew.sh).
-2. Enter this command line 'brew install hadoop'. Then you can see it.  ![brew install hadoop](images/hadoop_install.png){ width=50% }
+2. Enter this command line 'brew install hadoop'. Then you can see it.  ![brew install hadoop](images/hadoop_install.png)
 3. After installation, you can see hadoop directory in /usr/local/Cellar/hadoop/3.1.0
 4. To access hadoop bin in everywhere, setup HADOOP_HOME in ~/.bash_profile  ![bash_profile](images/bash_profile.png)
 5. Go to $HADOOP_HOME/etc/hadoop/hadoop-env.sh and add only JAVA_HOME absolute path like this. ![hadoop-env](images/hadoop-env.png)
