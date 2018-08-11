@@ -1,4 +1,3 @@
 rootProject.name = 'airpollution-analysis'
 include 'airpollution-analyzer-mapreduce'
-include 'airpollution-analyzer-service'
 

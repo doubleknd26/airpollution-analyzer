@@ -1,7 +1,5 @@
 ## Airpollution Analyzer
 This is my first hadoop mapreduce program to analyze air pollution of Seoul, South Korea.  
-There is two modules in this project. First, *airpollution-analyzer-mapreduce* is a module to run hadoop mapreduce. 
-The other one is a *airpollution-analyzer-service* and it is a module to see mapreduce result using http.
 
 ### Getting started with airpollution-analyzer-mapreduce
 
@@ -41,7 +39,21 @@ The other one is a *airpollution-analyzer-service* and it is a module to see map
         </property>
       </configuration>
       ```
-8. Go to $HADOOP_HOME and run ./bin/hdfs namenode -format.
-9. Go to $HADOOP_HOME and run ./sbin/start-dfs.sh. ![start-dfs](images/start-dfs.png)
+8. Go to $HADOOP_HOME and run `./bin/hdfs namenode -format`
+9. Go to $HADOOP_HOME and run `./sbin/start-dfs.sh` ![start-dfs](images/start-dfs.png)
 10. Then, you can browse the web interface for the NameNode http://localhost:50070/. ![namenode_web](images/namenode_web.png)
+11. Run cmd `hadoop fs -mkdir -p /user/user_name`  
 
+If you want to know more detail, please take a look [official document](https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-common/SingleCluster.html). 
+
+**Step2) Run Application**
+
+1. Run cmd `cd airpollution-analyzer/airpollution-analyzer-mapreduce`
+2. Run cmd `gradle clean build`
+3. Run cmd `hadoop jar build/libs/airpollution-analyzer-mapreduce-1.0-SNAPSHOT.jar output`
+   1. After run cmd, you can see below line.
+   2. `INFO mapreduce.Job:  map 100% reduce 100%`
+   3. `INFO mapreduce.Job: Job job_local1168524879_0001 completed successfully`
+4. To see the mapreduce result, run cmd `hadoop fs -cat output/*`
+   1. After run cmd, you can see this.
+   2. ![output](images/output.png)
