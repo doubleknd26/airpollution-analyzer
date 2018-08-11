@@ -3,8 +3,6 @@ This is my first hadoop mapreduce program to analyze air pollution of Seoul, Sou
 
 ### Getting started with airpollution-analyzer-mapreduce
 
-<img src="https://github.com/doubleknd26/airpollution-analyzer/blob/master/images/start-dfs.png" width = "100" height= "100"/>
-
 **Step1) Install hadoop.**  
 1. Install [brew](https://brew.sh).
 2. Enter this command line 'brew install hadoop'. Then you can see it.  ![brew install hadoop](images/hadoop_install.png)
