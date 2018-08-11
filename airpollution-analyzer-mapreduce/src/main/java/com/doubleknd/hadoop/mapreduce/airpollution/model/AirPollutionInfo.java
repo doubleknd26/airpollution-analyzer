@@ -3,7 +3,7 @@ package com.doubleknd.hadoop.mapreduce.airpollution.model;
 import lombok.Data;
 
 /**
- * Created by doubleknd26 on 01/10/2017.
+ * Created by Kideok Kim on 01/10/2017.
  */
 @Data
 public class AirPollutionInfo {

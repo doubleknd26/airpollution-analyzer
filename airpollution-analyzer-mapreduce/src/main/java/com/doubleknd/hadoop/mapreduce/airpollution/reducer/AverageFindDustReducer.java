@@ -7,7 +7,7 @@ import org.apache.hadoop.mapreduce.Reducer;
 import java.io.IOException;
 
 /**
- * Created by doubleknd26 on 01/10/2017.
+ * Created by Kideok Kim on 01/10/2017.
  */
 public class AverageFindDustReducer extends Reducer<Text, DoubleWritable, Text, DoubleWritable> {
 

@@ -5,7 +5,7 @@ import org.apache.commons.lang.StringUtils;
 import org.apache.hadoop.io.Text;
 
 /**
- * Created by doubleknd26 on 01/10/2017.
+ * Created by Kideok Kim on 01/10/2017.
  */
 public class AirPollutionInfoParser {
 
