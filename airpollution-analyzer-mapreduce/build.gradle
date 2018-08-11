@@ -2,7 +2,6 @@ group 'com.doubleknd.hadoop.airpollution.mapreduce'
 version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
-apply plugin: 'com.github.johnrengelman.shadow'
 
 sourceCompatibility = 1.8
 
@@ -22,7 +21,6 @@ dependencies {
 }
 
 jar {
-    finalizedBy shadowJar
     manifest {
         attributes 'Main-Class': 'com.doubleknd.hadoop.mapreduce.airpollution.AirPollutionAnalyzer'
     }
