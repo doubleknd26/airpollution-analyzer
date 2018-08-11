@@ -6,7 +6,6 @@ import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.conf.Configured;
 import org.apache.hadoop.fs.*;
 import org.apache.hadoop.io.DoubleWritable;
-import org.apache.hadoop.io.SequenceFile;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
@@ -17,10 +16,6 @@ import org.apache.hadoop.util.GenericOptionsParser;
 import org.apache.hadoop.util.Tool;
 import org.apache.hadoop.util.ToolRunner;
 
-import java.util.Arrays;
-import java.util.List;
-import java.util.stream.Collectors;
-
 /**
  * Created by Kideok Kim on 01/10/2017.
  */
@@ -28,7 +23,6 @@ public class AirPollutionAnalyzer extends Configured implements Tool {
     private static final String SOURCE_FILE = "air_pollution.csv";
     private static final String SOURCE_PATH = "data/" + SOURCE_FILE;
     private static final String JOB_NAME = "AirPollutionAnalyzer";
-    private static final String SUCCESS_FILE = "_SUCCESS";
 
     public static void main(String[] args) throws Exception {
         int res = ToolRunner.run(new Configuration(), new AirPollutionAnalyzer(), args);
